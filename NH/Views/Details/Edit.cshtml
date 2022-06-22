@@ -1,0 +1,19 @@
+﻿@model NH.Models.Database.Detail
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+<form action="" method="post">
+    <label for="Id">ID: </label>
+    <input type="text" name="Id" value="@Model.Id" class="form-control" />
+    <label for="room number">Room Number: </label>
+    <input type="text" name="Room_Number" value="@Model.Room_Number" class="form-control" />
+    <label for="room_catagory">Room Catagory: </label>
+    <input type="text" name="Room_Catagory" value="@Model.Room_Catagory" class="form-control" />
+    <label for="price">Price: </label>
+    <input type="text" name="Price" value="@Model.Price" class="form-control" />
+    <input type="submit" value="Update" class="btn btn-success" />
+
+
+</form>
